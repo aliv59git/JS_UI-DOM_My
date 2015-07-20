@@ -1,0 +1,260 @@
+Лекция Ивайло - Document Object Model
+
+DOM API се състои от обекти и методи за правене на по-атрактивни HTML страници. 
+
+- добавяне и отстраняване на HTML елементи
+
+- прилагане на стилове динамично
+
+- добавяне и отстраняване на HTML атрибути
+
+document.documentElement
+document.body
+
+За всеки HTML таг си има съответния ДОМ обектен тип. 
+
+- HTMLLIElement - <li>
+
+- HTMLAudioElement <audio>
+
+Всеки от тези обекти има подходящите пропертика. 
+
+HTMLAnchorElement си имат съответно href property
+HTMLImageElement - src property
+
+document обектът е специален обект, който ни дава вход за достъпа до всички тези елементи.
+
+<script>
+	HTML - и излиза подсказва във ВижСтудио всички HTML елементи
+</script>
+
+Другото е какви пропертита имат самите обекти. Всички атрибути, които имат съответните HTML елементи, са рефлектирали като пропертита. Стантартните неща като id, class, dragable, style, onclick и т.н. ги имат във всеки единт обект. 
+
+var li = document.getElementById("ivanli")     <ul> <li id="ivanli">Ivan</li> </ul> Ако напишем:
+
+li.innerHTML = "Pesho" - променя съдържанието на елемента и при ъпдейт на страницата се показва Пешо вместо Иван. По този начин могат да се правят динамични странички.
+
+HTML елементите също така имат пропертита, съответстващи на тяхното съдържание. Тези са важните неща: 
+
+.innetHTML - връща стринг със съдържание на елемента без самия елемент
+
+.outerHTML - връща като стринг съдържанието на елемента заедно с елемента – с таговете. 
+
+.innerText/textContent - връща като стринг текстовото съдържание на елемента без таговете. Може да селектира и навътре в този таг, ако има и под него и връща само съдържанието без таговете. 
+
+var li = document.getElementById('ivanli');
+li.innerHTML += '<a href="#"> Another Click</a>';
+
+и въвежда този анкър в страницата безпроблемно. Ако иска обаче да се изпечата кода, а не самата визуализация като препратка, използва li.innerText.
+
+- li.innerHTML = ''; //това пък ще изтрие съдържанието на ли елемента. Най-бързия начин да изтрием нещо - селектираме го и му даваме да е празен стринг.  
+ 
+li.id = 'Pesho' - можем да сменим id-то на елемента
+li.style.color = 'red'; - може да промени стила на елемента. 
+
+<div> <input type="text" id="my-name" /> 
+	<button id="get-name" incklick="getName()">Get Name </button>   //oncklick - изпълнява някаква функция, която можем да закачим тук. 
+</div>
+<script>
+	var input = document.getElementById("my-name")
+	input.value - не можем така да хванем стойността. 
+	
+	function getName() {
+	var value = input.value;
+	document.getElementById('ivanli').innetText = value; 
+}
+
+Така с JS можем да променяме елементи, да вземаме стойности и т.н. да правим динамични промени по страницата. 
+
+Селектиране на HTML елементи. 
+
+HTML елементи могат да бъдат намерени и закачени към променливи използвайки DOM API
+
+Селектиране на единичен елемент
+
+var header = document.getElementById('header');
+var nav = document.querySelector('#main-nav');  //връща първото срещнато
+
+Селектиране на колекция от елементи
+
+var inputs = doucment.getElementByTagName('li');
+var radiosGroup = document.getElementsByName('genders[]');  
+var header = document.querySelectorAll('#main-nav li');    //връща всички
+
+Използване на предварително дефинирана predefined колекция от елементи
+
+var links = document.links;
+var forms = document.forms; - това е по-полезно; Може така: var liColection = document.forms[0].submit(); //намира първата форма и я събмитва. Макар че обикновено формите са една на страничка. 
+
+Важно!!! С querySelectorAll може да селектира подобно на селектирането при CSS. Т.е важат всички онези правила за селектиране, които много помагат да се избере точно търсения елемент. Това е много по-удобно и бързо действено. 
+
+Използване на getElementsBy методите
+
+DOM API съдържа методи за селектиране на елементи на основата на някои характеристики:
+
+- By Id:  var header = document.getElementById('header');
+
+- By Class: var posts = document.getElementsByClassName('post-item');
+
+- By Tag Name: var sidebar = document.getElementsByTagName('sidebar');
+
+- By Name: var genderGroup = document.getElementsByName('genders[]');
+
+QuerySelector
+
+The DOM API has methods that use CSS-like selectors to find and select HTML elements.
+
+- querySelector - връща първия елемент който мачва селектора.
+
+- querySeletroAll - връща колекция от всички елементи, които мачват селектора. 
+
+И двата метода имат параметър стринг.
+
+Как да селектираме някакви елементи в други елементи. Става като селектираме първия (горния) елемент, и с точкова нотация стигаме до интересуващия ни елемент. Когато работим върху децата нямаме getElementById() метода. 
+
+NodeLists
+
+NodeList е колекция връщана от DOM selector методите:
+
+- getElementByTagName(tagName)
+
+- getElementByName(name)
+
+- getElementByClassName(className)
+
+- querySelectorAll(selector)
+
+Връщат колекции, на които можем да направим for-цикъл, имат дължина и др. 
+
+NodeList-a e дървовидна структура, каквато има самия HTML документ и Node - връх, точка на разклоняване. Всеки елемент има 0 или 1 родители и 0 или повече деца. NodeList-a нe е масив. Но има length и има индексатор, което е достатъчно за стандартните операции. for-in цикъла не работи както очакваме. 
+
+Static and Live NodeLists. There are two kinds of NodeLists:
+
+- getElementsBy...() retruns a LiveNodeList; //траква ни всякакви промени, които се случват върху DOM дървото. Ако някъде се случат промени по дървото, LiveNodeList-а ще реагира на промените и ще даде дървото с промените.
+
+- querySelectorAll() return StaticNodeList; Докато StaticNodeList-а няма да върненищо по-различно няма да ъпдейтне промените а ще ни върне колекцията такава, каквато е била в момента когато сме го извикали. 
+
+Чертаене на графики с Canvas
+
+Canvas e правоъгълна страница. Цялото чертаене/рисуване се прави вътре в тази страница. 
+
+Canvas се състои от: 
+
+<canvas> HTML element
+
+JavaScript API for the drawing.
+
+<canvas id = "the-canvas" width = "100" height = "100" />
+
+var canvas = document.getElementById('the-canvas');
+var cancasCtx = canvas.getContext('2d');
+canvasCtx.fillRect(10, 10, 30, 30);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
