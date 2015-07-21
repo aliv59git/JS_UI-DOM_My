@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DOM Manipulation - LiveNodeLists Performance</title>
+  <link rel="stylesheet" href="">
+  <style type="text/css" media="screen">
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://jsperf.com/livenodelists-length/3">Better example at jsperf.com</a>
+  <div id="content"></div>
+  <button onclick="onStartTestButtonClick()">Start test</button>
+  <div id="output"></div>
+  <script type="text/javascript">
+  window.onload = function(){
+    var hiddenDiv = document.createElement('div'),
+      count = 1000,
+      containerDiv = document.createElement('div'),
+      i, 
+      finalDiv = document.createElement('div');
+    hiddenDiv.classList.add('hidden');
+
+    for (var i = 0; i < count; i+=1) {
+      containerDiv.appendChild(hiddenDiv.cloneNode(true));
+    }
+    for (var i = 0; i < count; i+=1) {
+      finalDiv.appendChild(containerDiv.cloneNode(true));
+    }
+
+    document.getElementById('content').appendChild(finalDiv.cloneNode(true));
+  }
+    function regularLoop(elements){
+      var i,
+      el;
+      for (i = 0, len = elements.length; i < len; i+=1) {
+        el = elements[i];
+      }
+    }
+    function cachedLengthLoop(elements) {
+      var i, 
+      el;
+      for (var i = 0, len = elements.length; i < len; i+=1) {
+         el = elements[i];
+       } 
+    }
+
+    function onStartTestButtonClick(){
+      var divs = document.getElementsByClassName('hidden'),
+        startTime,
+        endTime;
+        //measure the regular iteration
+      startTime = new Date();
+      console.log(startTime);
+      regularLoop(divs);
+      endTime = new Date();
+      output.innerHTML += '<p>Regular loop executed in ' + (endTime - startTime) + '</p>';
+      //measure the iteration with chached length
+      startTime = new Date();
+      console.log(startTime);
+      cachedLengthLoop(divs);
+      endTime = new Date();
+      output.innerHTML = '<p> Loop with cached length executed in '+ (endTime - startTime) + '</p>';
+
+    }
+
+  </script>
+  
+</body>
+</html>

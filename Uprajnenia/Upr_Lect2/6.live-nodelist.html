@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DOM Manipulation - Live NodeLinst</title>
+  <link rel="stylesheet" href="">
+  <style type="text/css" media="screen">
+    div{
+      display: inline-block;
+      *display:inline;
+      width: 75px;
+      height: 75px;
+      zoom: 1;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+ <a href="#" onclick="onAddDivButtonClick()">Add div</a>
+ <div>
+   text
+ </div>
+ <div>
+   text
+ </div>
+ <div>
+   text
+ </div>
+ <div>
+   text
+ </div>
+  <script type="text/javascript">
+  var divs = document.getElementsByTagName('div');
+  var qdivs = document.querySelectorAll('div');
+  var div = document.createElement('div');
+  div.innerHTML = 'MyDiv Val';
+
+  function onAddDivButtonClick(){
+    document.body.appendChild(div.cloneNode(true));
+    console.log('getElementsByTagName(\"div\") = ' + divs.length);
+    console.log('querySelectorAll(\"div\") = ' + qdivs.length);
+  }
+
+  </script>
+</body>
+</html>

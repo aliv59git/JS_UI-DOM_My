@@ -1,0 +1,792 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"can",
+				"canvasCtx"
+			],
+			[
+				"the",
+				"theCanvas"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"playli",
+				"playlists"
+			],
+			[
+				"play",
+				"playlist"
+			],
+			[
+				"sho",
+				"showResult"
+			],
+			[
+				"is",
+				"isValidName"
+			],
+			[
+				"isV",
+				"isValidTitle"
+			],
+			[
+				"isValid",
+				"isValidAttributeName"
+			],
+			[
+				"attribu",
+				"attributesString"
+			],
+			[
+				"jho",
+				"jhonDoe"
+			],
+			[
+				"se",
+				"serializedRect"
+			],
+			[
+				"seri",
+				"serializedRect〔variable〕"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"Sh",
+				"Shape"
+			],
+			[
+				"las",
+				"lastName"
+			],
+			[
+				"la",
+				"lastName"
+			],
+			[
+				"firs",
+				"firstName"
+			],
+			[
+				"new",
+				"newCategory"
+			],
+			[
+				"li",
+				"library"
+			],
+			[
+				"list",
+				"listCategories"
+			],
+			[
+				"fi",
+				"firstName"
+			],
+			[
+				"inn",
+				"innerHTML	(function-expressions.js)"
+			],
+			[
+				"fu",
+				"function	(function-expressions.js)"
+			],
+			[
+				"secon",
+				"secondsString"
+			],
+			[
+				"minutes",
+				"minutesString"
+			],
+			[
+				"get",
+				"getFormattedTime"
+			],
+			[
+				"number",
+				"numberToDigitNames"
+			],
+			[
+				"numberWith",
+				"numberWithDigitNames〔variable〕"
+			],
+			[
+				"num",
+				"numberString"
+			],
+			[
+				"M",
+				"min〔function〕"
+			],
+			[
+				"max",
+				"maxN"
+			],
+			[
+				"parse",
+				"parseFloat〔function〕"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"l",
+				"log	console.log(...);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "D:\\VS\\JS_UI_DOM\\Evaluation\\Demo_Tmp\\5.nodelists.html:1\n(function (exports, require, module, __filename, __dirname) { <!DOCTYPE html>\n                                                              ^\nSyntaxError: Unexpected token <\n    at exports.runInThisContext (vm.js:73:16)\n    at Module._compile (module.js:443:25)\n    at Object.Module._extensions..js (module.js:478:10)\n    at Module.load (module.js:355:32)\n    at Function.Module._load (module.js:310:12)\n    at Function.Module.runMain (module.js:501:10)\n    at startup (node.js:129:16)\n    at node.js:814:3\n[Finished in 1.3s with exit code 1]\n",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Windows",
+				"name": "Build output",
+				"scratch": true
+			}
+		},
+		{
+			"file": "6.live-nodelist.html",
+			"settings":
+			{
+				"buffer_size": 886,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "5.nodelists.html",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/node.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/node.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"	",
+				"Build output always at end"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"del",
+				"Origami: Destroy Pane on the Left"
+			],
+			[
+				"install	",
+				"Package Control: Install Package"
+			],
+			[
+				"buildin",
+				"Build: New Build System"
+			],
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"buidou",
+				"Build output stays at same position"
+			],
+			[
+				"out",
+				"Build output always at end"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"open p",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"Package Control: install	",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"buildOutput",
+				"Build output always at end"
+			],
+			[
+				"buil",
+				"Build: New Build System"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 316.0
+	},
+	"console":
+	{
+		"height": 226.0,
+		"history":
+		[
+			"node functions.js",
+			"node functions",
+			"node functions.js",
+			"dir",
+			"node",
+			"node 2.string-methods.html",
+			"2.string-methods.html",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/VS/JS_UI_DOM/Evaluation",
+		"/D/VS/JS_UI_DOM/Evaluation/Demo_Tmp"
+	],
+	"file_history":
+	[
+		"/D/VS/JS_OOP_N/Evaluation/04.Object.keys().js",
+		"/D/VS/JS_OOP_N/Evaluation/04. Object.keys().js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/06. Modules and Patterns/demos/3.singleton.js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/02.Object.defineProperties().js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/03.Object.create().js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/04.Object.keys().js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/01.Object.defineProperty().js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/03Object.create().js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/03. Object.create().js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/08. Object and Object.prototype methods/03. Object.create().js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/08. Object and Object.prototype methods/12. Object.isFrozen().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/06.Object.preventExtensions().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/03.Object.create().js",
+		"/D/VS/JS_UI_DOM/JS_UI_DOM_My/JS_UI-DOM_My/lectCanvas.html",
+		"/D/VS/JS_UI_DOM/JS_UI_DOM_My/JS_UI-DOM_My/canvasLect.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/15.Object.protorype.hasOwnProperty().js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/08. Object and Object.prototype methods/15. Object.prototype.hasOwnProperty().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/14.Object.is().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/13.Object.assign().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/12.Object.isFrozen().js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ObjectAndObjectPrototypeMethods/otEvlogi.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JS_ModulesAndPatterns/2.revealing-module.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JS_ModulesAndPatterns/1.modules.js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/Sample exam/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JS_ModulesAndPatterns/clickOnTheButton.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ExamPrep1/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JS_ModulesAndPatterns/examPreparation1.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ExamPrep1/tasks/task-1My.js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/06. Modules and Patterns/demos/3. singleton.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JS_ModulesAndPatterns/3.singleton.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ProtortypeInheritance/task-1.js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/01. Functions and Function Expressions/09. recursion-traversing-dom/recursion-traversing-dom.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JavaScriptPatterns/1.modules.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JavaScriptPatterns/index.html",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JavaScriptPatterns/task-1_Orig.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/06.homework/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/06.homework/tasks/task-1My.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/06.homework/tests/tests-task-1.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/JavaScriptPatterns/task-1My.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/05.homework/tasks/task-1_YES_Last.js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/05. Prototypal Inheritance/homework/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ProtortypeInheritance/5.duck-typing.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ProtortypeInheritance/4.reusing-methods.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ProtortypeInheritance/__proto__.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/ProtortypeInheritance/3,object-create-define-properties.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/12.calling-parent-method.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/11.inheritance.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/09.constructor-with-modules.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/08.function-constructor-fix.js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/08. function-constructor-fix.js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/07. function-constructor-without-new.js",
+		"/D/VS/JS_OOP_N/Evaluation/Temp_Demos/12. calling-parent-methods.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/10.hidden-functions.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/01.function-constructors.js",
+		"/D/VS/JS_OOP_N/Demo/JavaScript-OOP/04. Classical Inheritance/homework/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/02.homework/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/01. homework/tasks/task-2.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/01. homework/tasks/task-1.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/02.homework/tasks/task-1My.js",
+		"/D/VS/JS_OOP_N/JS_OOPN_My/JS_OOP_N/Uprajnenia/ClosuresAndScope/6.closure-suage.js",
+		"/D/VS/JS_OOP_N/Evaluation/FunctionExpressionsUpr/14.nested-function.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hystory",
+			"playlists",
+			"titile",
+			"proto",
+			"prototype",
+			"this",
+			"validateBook",
+			"arr",
+			"buildOutput"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"history",
+			"numbers"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_dir": "D:\\VS\\JS_UI_DOM\\Demo\\JavaScript-UI-and-DOM\\02. Document Object Model",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "6.live-nodelist.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								885,
+								885
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "5.nodelists.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 212.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "02.DemoPoject.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index1.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\VS\\JS1_N\\JS1_My\\JSFundamentals\\ExamJS1N\\Exam13.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DOM Manipulation - QuerySelector</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <headet>
+    <nav id="main-nav">
+      <ul>
+        <li>
+          <a href="`#">Home</a>
+        </li>
+        <li>
+          <a href="#">Profile</a>
+        </li>
+        <li>
+          <a href="#">Friends</a>
+        </li>
+      </ul>
+    </nav>
+  </headet>
+  <script type="text/javascript">
+  var mainNav = document.querySelector('#main-nav');
+  var navItems = document.querySelectorAll('ul > li > a');
+  for (var i = 0, len = navItems.length; i < len; i+=1) {
+    console.log(navItems[i].innerHTML);
+  }
+  </script>
+</body>
+</html>
