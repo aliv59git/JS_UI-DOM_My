@@ -1,4 +1,4 @@
-Лекция Ивайло - Document Object Model
+Лекция Ивайло - Document Object Model 
 
 DOM API се състои от обекти и методи за правене на по-атрактивни HTML страници. 
 
