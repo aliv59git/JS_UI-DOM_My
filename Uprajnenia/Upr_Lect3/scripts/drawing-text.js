@@ -13,7 +13,20 @@
 
   offset = 5;
   minFontSize = '28';
+  fontFamily = 'Arial';
+  fillColor = 'yellowgreen';
+  strokeColor = '#003311';
+  text = 'Teleric Academy';
+  ctx.fillStyle = 'yellowgreen';
+  ctx.strokeStyle = '#003311';
 
-
+  currentFontSize = 48;
+  while (minFontSize <= currentFontSize) {
+    ctx.font = currentFontSize + 'px ' + fontFamily;
+    ctx.fillText(text, x, y);
+    ctx.strokeText(text, x, y);
+    y += currentFontSize + offset;
+    currentFontSize -=4;
+  }
 
 }());
