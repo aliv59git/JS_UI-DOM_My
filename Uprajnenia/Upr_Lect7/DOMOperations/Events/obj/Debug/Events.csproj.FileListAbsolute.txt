@@ -1,0 +1,6 @@
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\bin\Events.dll.config
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\bin\Events.dll
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\bin\Events.pdb
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\obj\Debug\Events.dll
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\Events\obj\Debug\Events.pdb

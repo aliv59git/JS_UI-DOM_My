@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM Manipulations</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <ul id="list">
+        <li>
+            <a href="#">
+                <span id="first-span">Text 1</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Text 2</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Text 3</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Text 4</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span>Text 5</span>
+            </a>
+        </li>
+    </ul>
+    <script> 
+        var ul = document.getElementById('list');
+        var dFrag = document.createDocumentFragment();
+        var li = document.createElement('li');
+        li.style.color = 'yellowGreen';
+        for (var i = 0; i < 150; i++) {
+            var currentLi = li.cloneNode(true);
+            currentLi.innerHTML = 'textNew ' + i;
+            dFrag.appendChild(currentLi);
+        }
+        ul.appendChild(dFrag);
+        //var container = document.getElementById('container');
+        //container.appendChild(ul);
+        var span = document.getElementById('first-span');
+        span.style.color = 'red';
+        console.log(ul.lastElementChild.previousElementSibling.innerText);
+        var li = document.createElement('li');
+        li.innerHTML = 'asdfasd12341234';
+        li.style.color = 'red';
+        //ul.appendChild(li); //no e bavno
+        ul.insertBefore(li, ul.firstElementChild);
+
+        var content = '';
+        for (var i = 0; i < 100; i+=1) {
+            content += '<li>text ' + i + '</li>';
+        }
+        ul.innerHTML += content;
+
+        //ul.parentNode.removeChild(ul);
+    </script>
+</body>
+</html>

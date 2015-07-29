@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Events</title>
+</head>
+<body>
+    <input id="input" type="text" onkeyup="inputChanged()" />
+    <span id="text"></span> 
+    <script>
+        function inputChanged() {
+            var input = document.getElementById('input');
+            var textSp = document.getElementById('text');
+            textSp.innerText = input.value;
+        }
+    </script>
+
+</body>
+</html>

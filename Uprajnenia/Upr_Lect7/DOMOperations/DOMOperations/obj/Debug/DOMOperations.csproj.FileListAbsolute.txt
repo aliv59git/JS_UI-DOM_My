@@ -1,0 +1,6 @@
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\bin\DOMOperations.dll.config
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\bin\DOMOperations.dll
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\bin\DOMOperations.pdb
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\obj\Debug\DOMOperations.csprojResolveAssemblyReference.cache
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\obj\Debug\DOMOperations.dll
+D:\VS\JS_UI_DOM\Evaluation\Upr_Lect7\DOMOperations\DOMOperations\obj\Debug\DOMOperations.pdb

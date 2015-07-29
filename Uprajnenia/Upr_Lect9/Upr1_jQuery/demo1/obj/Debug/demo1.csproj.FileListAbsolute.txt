@@ -1,0 +1,6 @@
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\bin\demo1.dll.config
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\bin\demo1.dll
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\bin\demo1.pdb
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\obj\Debug\demo1.csprojResolveAssemblyReference.cache
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\obj\Debug\demo1.dll
+D:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Uprajnenia\Upr_Lect9\Upr1_jQuery\demo1\obj\Debug\demo1.pdb
