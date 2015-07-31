@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upr1_jQuery", "Upr1_jQuery\Upr1_jQuery.csproj", "{DF97F903-06E1-42E9-A777-D5691E0DD305}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo1", "demo1\demo1.csproj", "{CDAE476A-578A-459E-BBCB-140A705B68FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo2", "demo2\demo2.csproj", "{7461D2C8-D19C-4FD9-A353-8CC2FE39282C}"
@@ -13,16 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo3", "demo3\demo3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo4", "demo4\demo4.csproj", "{D3DD62A5-6DD4-44A8-AECF-4F016387984D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.usingPlugins", "11.usingPlugins\11.usingPlugins.csproj", "{D698D825-84D9-4370-9372-E666938C9D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.customPlugins", "12.customPlugins\12.customPlugins.csproj", "{A650C07D-E093-4BA0-9B26-6666907842E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF97F903-06E1-42E9-A777-D5691E0DD305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF97F903-06E1-42E9-A777-D5691E0DD305}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF97F903-06E1-42E9-A777-D5691E0DD305}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF97F903-06E1-42E9-A777-D5691E0DD305}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDAE476A-578A-459E-BBCB-140A705B68FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDAE476A-578A-459E-BBCB-140A705B68FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDAE476A-578A-459E-BBCB-140A705B68FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{D3DD62A5-6DD4-44A8-AECF-4F016387984D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DD62A5-6DD4-44A8-AECF-4F016387984D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DD62A5-6DD4-44A8-AECF-4F016387984D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D698D825-84D9-4370-9372-E666938C9D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D698D825-84D9-4370-9372-E666938C9D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D698D825-84D9-4370-9372-E666938C9D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D698D825-84D9-4370-9372-E666938C9D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A650C07D-E093-4BA0-9B26-6666907842E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A650C07D-E093-4BA0-9B26-6666907842E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A650C07D-E093-4BA0-9B26-6666907842E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A650C07D-E093-4BA0-9B26-6666907842E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
