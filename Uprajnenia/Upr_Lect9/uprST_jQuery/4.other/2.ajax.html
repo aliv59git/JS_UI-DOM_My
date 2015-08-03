@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery AJAX</title>
+</head>
+<body>
+
+<div id="root">
+  <p>Type to filter the countries: </p>
+  <label for="tb-flter">Filter: </label>
+  <input type="text" id="tb-filter">
+  <div id="countries"></div>
+</div>
+<script type="text/javascript" src="../jquery-1.11.3.js"></script>  
+<script type="text/javascript">
+  function createCountriesList(countries) {
+    var $countriesList = $('<ul class="countries-list" />');
+    $(countries).each(function (index, country) {
+      $('<li />')
+      .addClass('country-item')
+      .html(country.name 
+          + ' (population: ' + country.population
+          + '; capital: ' + country.capital + ')');
+    });
+    return $countriesList;
+  }
+
+  $(function(){
+    // attach on 'keyup' for live update
+    // ('change' first when the focul is lost)
+    $("#tb-filter").on('keyup', function () {
+      var value = $(this).val().toLowerCase();
+      if(value.length < 3){
+        $('#countries').html('');
+        return;
+      }
+      $.get('http://restcountries.eu/rest/v1/name/' + value)
+        .success(function (respCountries) {
+          var $countriesList = createCountriesList(
+            respCountries);
+          $('#countries').html($countriesList);
+        });
+    });
+  });
+
+  //http://www.sitepoint.com/jquery-vs-raw-javascript-3-events-ajax
+</script>
+</body>
+</html>

@@ -30,7 +30,8 @@
 	var $specialItem = $(".special").first();
 	printMessage("parent id: " + $specialItem.parent().attr("id"));
 	printMessage("div id: " + $specialItem.parents("div").attr("id"));
-	printMessage("#wrapper id: " + $specialItem.parents("#wrapper").attr("id"));
+  printMessage("#wrapper id: " + $specialItem.parents("#wrapper").attr("id"));
+	printMessage("#wrapper id: " + $specialItem.parents("#wrapper").text());
 	printMessage("#items-list children count: " + $("#items-list").children().length);
 	</script>
 </body>
