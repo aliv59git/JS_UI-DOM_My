@@ -18,9 +18,42 @@ Create a function that takes a selector and:
 
 */
 function solve() {
-  return function (selector) {
-    
-  };
+    return function (selector) {
+        if (typeof selector !== 'string') {
+            throw new Error();
+        }
+
+        var $selectedElement = $(selector),
+            $allButtons = $selectedElement.find('.button');
+
+        if (!$selectedElement.length) {
+            throw new Error();
+        }
+
+        for (var i = 0; i < $allButtons.length; i+=1) {
+            var $currElement = $($allButtons[i]);
+            $currElement.text('hide');
+
+            $currElement.on('click', onBtnClick);
+        }
+
+        function onBtnClick () {
+            var $this = $(this);
+
+            var $nextContent = $this.nextAll('.content').first(),
+                $nextBtn = $nextContent.nextAll('.button').first();
+
+            if($nextBtn.length && $nextContent.length) {
+                if($nextContent.css('display') === 'none') {
+                    $nextContent.css('display', '');
+                    $this.text('hide');
+                } else {
+                    $nextContent.css('display', 'none');
+                    $this.text('show');
+                }
+            }
+        }
+    };
 };
 
 module.exports = solve;

@@ -20,9 +20,43 @@ Create a function that takes a selector and COUNT, then generates inside a UL wi
 */
 
 function solve() {
-  return function (selector, count) {
-   
-  };
+    return function (selector, count) {
+        if (!count) {
+            throw new Error();
+        }
+
+        if (typeof count !== 'number') {
+            throw new Error();
+        }
+
+        if (count < 1) {
+            throw new Error();
+        }
+
+        if(!selector || Array.isArray(selector)) {
+            throw new Error();
+        }
+
+        var $liEl = $('<li>'),
+            $ulEl = $('<ul>'),
+            $selectedEl;
+
+        $selectedEl = $(selector);
+
+        if($selectedEl.length) {
+            $liEl.addClass('list-item');
+            $ulEl.addClass('items-list');
+
+            for (var i = 0; i < count; i+=1) {
+                var $newLi = $liEl.clone();
+
+                $newLi.html('List item #' + i);
+                $ulEl.append($newLi);
+            };
+            $selectedEl.append($ulEl);
+        }
+
+    };
 };
 
 module.exports = solve;
