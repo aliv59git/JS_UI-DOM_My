@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTML Templates. Handlebars</title>
+</head>
+<body>
+    <div id="wrapper"></div>
+    <script id="atricle-template" type="text/x-handlebars">
+        <div class="id">
+            <p class="pesho" id="{{id}}">Name: {{{name}}}</p>
+            <p>Visitors: {{visitors}}</p>
+        </div>
+    </script>
+
+    <script src="scripts/handlebars.min.js"></script>
+
+    <script>
+        var html = document.getElementById('atricle-template').innerHTML; //tmplStr - string-a za kompilirane
+        var articleTemplate = Handlebars.compile(html);    //kompilirane
+        var article = {                         //object with properties za zamestvane
+            id: 5,
+            name: '<h1>Teleric Academy - the best</h1>',
+            visitors: 122341234
+        };
+
+        var articleResult = articleTemplate(article);   //podava oject-a na template-a
+        document.getElementById('wrapper').innerHTML = articleResult;  //vizualizira resultata 
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\bin\Home11Handlebar.dll.config
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\bin\Home11Handlebar.dll
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\bin\Home11Handlebar.pdb
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\obj\Debug\Home11Handlebar.csprojResolveAssemblyReference.cache
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\obj\Debug\Home11Handlebar.dll
+F:\VS\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Home\homework11\Home11HTMLTemplates\Home11Handlebar\obj\Debug\Home11Handlebar.pdb
