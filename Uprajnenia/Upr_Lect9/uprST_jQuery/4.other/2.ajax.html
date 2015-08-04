@@ -8,7 +8,7 @@
 
 <div id="root">
   <p>Type to filter the countries: </p>
-  <label for="tb-flter">Filter: </label>
+  <label for="tb-filter">Filter: </label>
   <input type="text" id="tb-filter">
   <div id="countries"></div>
 </div>
@@ -17,11 +17,13 @@
   function createCountriesList(countries) {
     var $countriesList = $('<ul class="countries-list" />');
     $(countries).each(function (index, country) {
+      $countriesList.append(
       $('<li />')
       .addClass('country-item')
       .html(country.name 
           + ' (population: ' + country.population
-          + '; capital: ' + country.capital + ')');
+          + '; capital: ' + country.capital + ')')
+      );
     });
     return $countriesList;
   }
