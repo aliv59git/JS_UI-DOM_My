@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <ul id=my-menu>
+    <li>Ivan</li>
+    <li>Pesho</li>
+    <li>Gosho</li>
+    <li>Rado</li>
+  </ul>
+  <script src="../jQuery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8" >
+    $.fn.beautifullMenu = function (){
+      var $this = $(this);
+      $this.css('list-style-type', 'none');
+      $this.children('li').css({
+        'display': 'in-line-block',
+        'padding': '15px',
+        'backgrownd-color': 'grey',
+        'border': '1px solid red'
+      }).on('click', function(){
+        var eventThis = $(this);
+        alert(eventThis.text());
+      });
+    }
+  
+
+  $('#my-menu').beautifullMenu();
+  </script>
+  
+</body>
+</html>
