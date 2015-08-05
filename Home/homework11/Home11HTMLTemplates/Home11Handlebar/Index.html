@@ -9,22 +9,63 @@
         <div class="id">
             <p class="pesho" id="{{id}}">Name: {{{name}}}</p>
             <p>Visitors: {{visitors}}</p>
+            <p>
+                Tags:
+                <ul>
+                    {{#each tags}}
+                    <li class="ivan" data-id="{{id}}">{{@index}} - {{name}}</li>
+                    {{/each }}
+                </ul>
+            </p>
+            {{#if author}}
+              <p>Author: {{author}}</p>
+            {{/if}}
+            <p>
+                {{#with redactor}}
+                Redactor: {{name}} {{age}}
+                {{/with}} <br />
+                Redactor: {{redactor.name}} {{redactor.age}}
+
+                {{#myRedactor redactor}}
+                    
+                {{/myRedactor}}
+            </p>
+
         </div>
     </script>
 
     <script src="scripts/handlebars.min.js"></script>
 
     <script>
+        Handlebars.registerHelper('myRedactor', function (redactor) {
+            var html = '<ul class="tags-list">' +
+                    '<li>' + redactor.name + '</li>' +
+                    '<li>' + redactor.age + '</li>' + '</ul>';
+
+            return new Handlebars.SafeString(html);
+        });
+
         var html = document.getElementById('atricle-template').innerHTML; //tmplStr - string-a za kompilirane
         var articleTemplate = Handlebars.compile(html);    //kompilirane
         var article = {                         //object with properties za zamestvane
             id: 5,
+            tags: [
+                { name: 'season 2015', id: 1 },
+                { name: 'Pesho', id: 2 },
+                { name: 'Sofia', id: 3 },
+                { name: 'TA', id: 4 }
+            ],
+            redactor: {
+                name: 'Baj Ivan',
+                age: 56
+            },
+            author: 'Bogomil Rainov',
             name: '<h1>Teleric Academy - the best</h1>',
             visitors: 122341234
         };
 
         var articleResult = articleTemplate(article);   //podava oject-a na template-a
-        document.getElementById('wrapper').innerHTML = articleResult;  //vizualizira resultata 
+        document.getElementById('wrapper').innerHTML = articleResult;  //vizualizira resultata
 
     </script>
 
