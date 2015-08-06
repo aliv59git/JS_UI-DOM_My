@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,6 +66,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Description.html" />
+    <Content Include="Images\After.png" />
+    <Content Include="Images\Before.png" />
+    <Content Include="Images\cat.jpg" />
+    <Content Include="Images\clicked.png" />
+    <Content Include="Images\current-selected.png" />
+    <Content Include="Images\current.png" />
+    <Content Include="Images\initial.png" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\previous.png" />
+    <Content Include="Images\selected.png" />
+    <Content Include="Images\selecting.png" />
+    <Content Include="libs\jquery-1.11.3.js" />
+    <Content Include="Source\index.html" />
+    <Content Include="Source\jquery.min.js" />
+    <Content Include="Source\solution.js" />
+    <Content Include="Source\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

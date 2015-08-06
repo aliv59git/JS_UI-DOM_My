@@ -57,6 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="Task-1.md" />
+    <Content Include="tasks\main.styl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,6 +68,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\after-clicking-X-on-green-lantern.png" />
+    <Content Include="images\no-match.png" />
+    <Content Include="images\sample.png" />
+    <Content Include="images\with-search-pattern.png" />
+    <Content Include="Task-1.html" />
+    <Content Include="tasks\index.html" />
+    <Content Include="tasks\main.css" />
+    <Content Include="tasks\task-1.js" />
+    <Content Include="tests\tesk-1-zero-tests.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

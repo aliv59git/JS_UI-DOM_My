@@ -1,0 +1,6 @@
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\bin\Task2.dll.config
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\bin\Task2.dll
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\bin\Task2.pdb
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\obj\Debug\Task2.dll
+C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\Exam\ExamAug2015\Task2\obj\Debug\Task2.pdb
