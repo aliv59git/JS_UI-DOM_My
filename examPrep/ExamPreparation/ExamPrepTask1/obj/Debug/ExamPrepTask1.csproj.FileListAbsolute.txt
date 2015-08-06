@@ -1,6 +1,0 @@
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\bin\ExamPrepTask1.dll.config
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\bin\ExamPrepTask1.dll
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\bin\ExamPrepTask1.pdb
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\obj\Debug\ExamPrepTask1.csprojResolveAssemblyReference.cache
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\obj\Debug\ExamPrepTask1.dll
-C:\Users\Atanas\Documents\Visual Studio 2012\JS_UI_DOM\JS_UI_DOM_My\JS_UI-DOM_My\examPrep\ExamPreparation\ExamPrepTask1\obj\Debug\ExamPrepTask1.pdb
